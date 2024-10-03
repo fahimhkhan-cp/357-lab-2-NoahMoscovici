@@ -30,9 +30,6 @@ int main(int argc, char *argv[]) {
     }
 
     while (1) {
-        // Free the previous line
-        free(prev);
-
         // Set the new previous
         prev = line;
 
