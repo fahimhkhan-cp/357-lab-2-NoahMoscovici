@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/noahmoscovici/Documents/GitHub/357-lab-2-NoahMoscovici/example_3'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _start, symObjAddr: 0x0, symBinAddr: 0x100003C8C, symSize: 0x4 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _start, symObjAddr: 0x0, symBinAddr: 0x100003C8C, symSize: 0x4 }
+  - { offsetInCU: 0x56, offset: 0x56, size: 0x8, addend: 0x0, symName: _pause, symObjAddr: 0x4, symBinAddr: 0x100003C90, symSize: 0x4 }
+  - { offsetInCU: 0x6B, offset: 0x6B, size: 0x8, addend: 0x0, symName: _bad_int_example, symObjAddr: 0x8, symBinAddr: 0x100003C94, symSize: 0x24 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _bad_array_example, symObjAddr: 0x2C, symBinAddr: 0x100003CB8, symSize: 0x6C }
+  - { offsetInCU: 0xE5, offset: 0xE5, size: 0x8, addend: 0x0, symName: _example1, symObjAddr: 0x98, symBinAddr: 0x100003D24, symSize: 0x8C }
+  - { offsetInCU: 0x133, offset: 0x133, size: 0x8, addend: 0x0, symName: _example2, symObjAddr: 0x124, symBinAddr: 0x100003DB0, symSize: 0xC8 }
+  - { offsetInCU: 0x181, offset: 0x181, size: 0x8, addend: 0x0, symName: _raw_copy, symObjAddr: 0x1EC, symBinAddr: 0x100003E78, symSize: 0x4C }
+  - { offsetInCU: 0x1B3, offset: 0x1B3, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x238, symBinAddr: 0x100003EC4, symSize: 0x48 }
+...
