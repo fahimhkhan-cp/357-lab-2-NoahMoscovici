@@ -58,6 +58,7 @@ int main(int argc, char *argv[]) {
     // Clean up
     free(prev);
     free(line);
+    free(next);
     fclose(file);
 
     return 0;
